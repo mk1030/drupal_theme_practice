@@ -25,4 +25,11 @@
 		}
 
 	}
+	
+	&-phone {
+		&:before {
+		 font-family: FontAwesome; 
+	     content: "\f095";
+		}
+	}
 }

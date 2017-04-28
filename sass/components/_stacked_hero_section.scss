@@ -1,0 +1,19 @@
+// Components
+.stacked_hero_section-title {
+  font-size: px2rem(34);
+  text-transform: uppercase;
+  letter-spacing: px2em(3,34);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: $medium-gray;
+  text-align: center;
+  padding-bottom: px2em(28, 34);
+  margin-bottom: px2em(32, 34);
+}
+.stacked_hero_section--alt {
+  background-color: $light-gray;
+  padding: px2rem(25) px2rem(121);
+  > .stacked_hero_section-title {
+    border-bottom-color: $white;
+  }
+}

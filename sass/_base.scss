@@ -1,0 +1,13 @@
+
+
+// Default HTML elements
+body {
+  font-weight: $default-font-weight;
+  color: $medium-darker-gray;
+}
+h1, h2, h3 {
+  font-weight: $default-font-weight;
+}
+p {
+  line-height: 1.7;
+}
